@@ -33,25 +33,8 @@ function _wpsc_te2_register_scripts() {
 		array( 'jquery' ),
 		WPSC_VERSION
 	);
-	wp_register_script(
-		'wpsc-stacktable',
-		wpsc_locate_asset_uri( 'js/stacktable.min.js' ),
-		array( 'jquery' ),
-		WPSC_VERSION
-	);
-	wp_register_script(
-		'wpsc-checkout',
-		wpsc_locate_asset_uri( 'js/checkout.js' ),
-		array( 'jquery' ),
-		WPSC_VERSION
-	);
 
 	do_action( 'wpsc_register_scripts' );
-	
-	//Change this later so it's not enqueued everywhere
-	wp_enqueue_script( 'wpsc-stacktable' );
-	wp_enqueue_script( 'wpsc-checkout' );
-
 	do_action( 'wpsc_enqueue_scripts' );
 }
 
