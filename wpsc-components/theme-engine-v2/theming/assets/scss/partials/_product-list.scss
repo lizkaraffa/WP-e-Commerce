@@ -1,15 +1,11 @@
 /*****************
 Product List
 *****************/
-.wpsc-thumbnail-wrapper {
-    display: inline-block;
-}
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d29a63003f81940a56950508d8afb2480d329963
-.wpsc-product-summary {
-    display: inline-block;
-    float: right;
+.wpsc-form-horizontal {
+	.wpsc-field,
+	.wpsc-form-actions {
+		display: inline-block;
+		margin-right: 5%;
+	}
 }

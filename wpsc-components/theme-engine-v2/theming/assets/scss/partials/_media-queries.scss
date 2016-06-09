@@ -78,4 +78,9 @@ Media Queries
 			}
 		}
 	}
+	.wpsc-controller .wpsc-create-account-offer,
+	.wpsc-controller .wpsc-login-form-wrapper  {
+		float: none;
+		width: 100%;
+	}
 }

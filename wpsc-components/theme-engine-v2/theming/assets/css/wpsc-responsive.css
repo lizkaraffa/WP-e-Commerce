@@ -4,6 +4,7 @@ Variables
 /* Typography */
 /* Shopping Cart Single Product Cells (Needs to add up to 100%) */
 /* value x 4 i.e. 2.5 x 4 = 10% */
+/* Account Orders  */
 /*Product Grid*/
 .wpsc-grid {
   /**********************************
@@ -39,24 +40,28 @@ Variables
 
 .wpsc-list {
   /*****************
+  Product Base
+  *****************/
+  /*****************
   Product List
   *****************/ }
   .wpsc-list .wpsc-thumbnail-wrapper {
     display: inline-block; }
   .wpsc-list .wpsc-product-summary {
-<<<<<<< HEAD
     display: inline-block;
     float: right; }
+  .wpsc-list .wpsc-form-horizontal .wpsc-field,
+  .wpsc-list .wpsc-form-horizontal .wpsc-form-actions {
+    display: inline-block;
+    margin-right: 5%; }
 
 .wpsc-single {
   /*****************
-  Product List
+  Product Base
   *****************/ }
   .wpsc-single .wpsc-thumbnail-wrapper {
     display: inline-block; }
   .wpsc-single .wpsc-product-summary {
-=======
->>>>>>> d29a63003f81940a56950508d8afb2480d329963
     display: inline-block;
     float: right; }
 
@@ -269,4 +274,9 @@ Media Queries
     min-width: 100%;
     display: block; }
   .wpsc-checkout .entry-content #wpsc-checkout-form-shipping {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .wpsc-controller .wpsc-create-account-offer,
+  .wpsc-controller .wpsc-login-form-wrapper {
+    float: none;
+    width: 100%; } }
