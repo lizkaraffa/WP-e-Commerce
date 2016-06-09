@@ -38,6 +38,7 @@ function _wpsc_get_inline_style() {
 
 	ob_start();
 	?>
+	.wpsc-page-main-store .wpsc-product-summary,
 	.archive .wpsc-product-summary {
 		width: -moz-calc(100% - <?php echo $archive_width + $thumbnail_padding; ?>px);
 		width: -webkit-calc(100% - <?php echo $archive_width + $thumbnail_padding; ?>px);
