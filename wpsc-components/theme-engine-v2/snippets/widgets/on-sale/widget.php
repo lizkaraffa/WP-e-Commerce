@@ -14,7 +14,7 @@ if ( ! empty( $title ) )
 <?php 	endif; ?>
 
 <?php	if ( $instance['show_name'] ): ?>
-		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		<a class="wpsc-widget-product-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 <?php endif; ?>
 
 <?php 	if ( $instance['show_description'] ): ?>
