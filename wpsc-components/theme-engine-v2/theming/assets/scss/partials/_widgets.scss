@@ -1,0 +1,38 @@
+/*******************
+Widgets
+********************/
+
+//Product on sale Widget
+.widget {
+	.wpsc-widget-latest-product-list,
+	.wpsc-widget-latest-product-list li {
+	    list-style: none;
+	}
+	.wpsc-widget-latest-product-list {
+	    margin: 0;
+	    padding: 0;
+	    font-size: $base-font;
+	}
+	.wpsc-product-thumbnail img {
+	    margin-bottom: 20px;
+	}
+	.wpsc-product-price {
+		padding-left: 0;
+	}
+	ins.wpsc-sale-price {
+	    background: initial;
+	}
+	.wpsc-widget-product-title {
+		font-size: $title-size-col-4;
+		margin-bottom: 1em;
+	}
+	.wpsc-product-price {
+	    margin-left: 0;
+	}
+	.wpsc-product-price li {
+	    display: inline-block;
+	}
+	#secondary .wpsc-widget-latest-product-list {
+	    margin-left: 0;
+	}
+}

@@ -51,7 +51,8 @@ Variables
   .wpsc-grid .wpsc-column-2 .wpsc-product-title {
     font-size: 1.75em; }
   .wpsc-grid .wpsc-column-2 .wpsc-old-price {
-    font-size: 0.85em; }
+    font-size: 0.85em;
+    color: #666; }
   .wpsc-grid .wpsc-column-2 .wpsc-sale-price .wpsc-amount,
   .wpsc-grid .wpsc-column-2 .wpsc-sale,
   .wpsc-grid .wpsc-column-2 .wpsc-product-price > .wpsc-amount {
@@ -59,7 +60,8 @@ Variables
   .wpsc-grid .wpsc-column-3 .wpsc-product-title {
     font-size: 1.35em; }
   .wpsc-grid .wpsc-column-3 .wpsc-old-price {
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    color: #666; }
   .wpsc-grid .wpsc-column-3 .wpsc-sale-price .wpsc-amount,
   .wpsc-grid .wpsc-column-3 .wpsc-sale,
   .wpsc-grid .wpsc-column-3 .wpsc-product-price > .wpsc-amount {
@@ -67,7 +69,8 @@ Variables
   .wpsc-grid .wpsc-column-4 .wpsc-product-title {
     font-size: 1.25em; }
   .wpsc-grid .wpsc-column-4 .wpsc-old-price {
-    font-size: 0.7em; }
+    font-size: 0.7em;
+    color: #666; }
   .wpsc-grid .wpsc-column-4 .wpsc-sale-price .wpsc-amount,
   .wpsc-grid .wpsc-column-4 .wpsc-sale,
   .wpsc-grid .wpsc-column-4 .wpsc-product-price > .wpsc-amount {
@@ -75,7 +78,8 @@ Variables
   .wpsc-grid .wpsc-column-5 .wpsc-product-title {
     font-size: 1.15em; }
   .wpsc-grid .wpsc-column-5 .wpsc-old-price {
-    font-size: 0.65em; }
+    font-size: 0.65em;
+    color: #666; }
   .wpsc-grid .wpsc-column-5 .wpsc-sale-price .wpsc-amount,
   .wpsc-grid .wpsc-column-5 .wpsc-sale,
   .wpsc-grid .wpsc-column-5 .wpsc-product-price > .wpsc-amount {
@@ -83,7 +87,8 @@ Variables
   .wpsc-grid .wpsc-column-6 .wpsc-product-title {
     font-size: 1.05em; }
   .wpsc-grid .wpsc-column-6 .wpsc-old-price {
-    font-size: 0.6em; }
+    font-size: 0.6em;
+    color: #666; }
   .wpsc-grid .wpsc-column-6 .wpsc-sale-price .wpsc-amount,
   .wpsc-grid .wpsc-column-6 .wpsc-sale,
   .wpsc-grid .wpsc-column-6 .wpsc-product-price > .wpsc-amount {
@@ -95,9 +100,6 @@ Variables
     display: none; }
   .wpsc-grid .wpsc-product-price br {
     display: none; }
-  .wpsc-grid .wpsc-old-price {
-    font-size: .8em;
-    color: #666; }
   .wpsc-grid ins.wpsc-sale-price {
     background: initial;
     margin-left: 5px;
@@ -308,6 +310,30 @@ Shopping Cart
     margin-bottom: 1.5em; }
   .wpsc-checkout .entry-content .wpsc-cart-quantity-input {
     width: 40px; }
+
+/*******************
+Widgets
+********************/
+.widget .wpsc-widget-latest-product-list,
+.widget .wpsc-widget-latest-product-list li {
+  list-style: none; }
+.widget .wpsc-widget-latest-product-list {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+.widget .wpsc-product-thumbnail img {
+  margin-bottom: 20px; }
+.widget .wpsc-product-price {
+  padding-left: 0; }
+.widget ins.wpsc-sale-price {
+  background: initial; }
+.widget .wpsc-widget-product-title {
+  font-size: 1.25em;
+  margin-bottom: 1em; }
+.widget .wpsc-product-price {
+  margin-left: 0; }
+.widget .wpsc-product-price li {
+  display: inline-block; }
 
 /**********************
 Accounts Page
