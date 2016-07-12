@@ -334,7 +334,8 @@ Widgets
   margin-left: 0; }
 .widget .wpsc-product-price li {
   display: inline-block; }
-.widget #secondary .wpsc-widget-latest-product-list {
+
+#secondary .wpsc-widget-latest-product-list {
   margin-left: 0; }
 
 /**********************
