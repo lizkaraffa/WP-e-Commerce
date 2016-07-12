@@ -4751,9 +4751,8 @@ br.clear {
 }
 
 .wpsc-controller .wpsc-product-header,
-.wpsc-controller .wpsc-product-description p,
-.wpsc-controller .wpsc-product-price {
-	margin-bottom: 25px;
+.wpsc-controller .wpsc-product-description p {
+	margin-bottom: 18px;
 }
 
 .wpsc-controller .wpsc-product-variations label {
