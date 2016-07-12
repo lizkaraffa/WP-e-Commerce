@@ -338,6 +338,9 @@ Widgets
 #secondary .wpsc-widget-latest-product-list {
   margin-left: 0; }
 
+.widget .wpsc-cart-item-title {
+  font-size: 1.25em; }
+
 /**********************
 Accounts Page
 ***********************/

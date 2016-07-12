@@ -36,3 +36,10 @@ Widgets
 #secondary .wpsc-widget-latest-product-list {
     margin-left: 0;
 }
+
+//Shopping-Cart Widget
+.widget {
+	.wpsc-cart-item-title {
+		font-size: $title-size-col-4;
+	}
+}
