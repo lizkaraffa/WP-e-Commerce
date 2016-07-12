@@ -104,7 +104,7 @@ Variables
     background: initial;
     margin-left: 5px;
     white-space: nowrap;
-    color: initial; }
+    color: inherit; }
   .wpsc-grid #wpsc-products {
     display: -webkit-box;
     display: -moz-box;
@@ -334,6 +334,8 @@ Widgets
   margin-left: 0; }
 .widget .wpsc-product-price li {
   display: inline-block; }
+.widget #secondary .wpsc-widget-latest-product-list {
+  margin-left: 0; }
 
 /**********************
 Accounts Page
