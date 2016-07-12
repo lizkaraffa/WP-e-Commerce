@@ -290,7 +290,7 @@ Shopping Cart
     font-weight: 600;
     content: attr(data-title); }
   .widget .wpsc-cart-quantity-input {
-    width: 25%; }
+    max-width: 25%; }
 
 .wpsc-checkout {
   /*******************
@@ -536,7 +536,7 @@ Media Queries
     content: attr(data-title); }
 
   .wpsc-cart-quantity-input {
-    width: 25%; }
+    max-width: 25%; }
 
   .wpsc-grid .wpsc-column-6,
   .wpsc-grid .wpsc-column-5,
